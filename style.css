@@ -9,11 +9,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
 }
 
 form {
-    margin: 0.5rem auto;
+    margin: 1.5rem auto;
     max-width: 400px;
     padding: 1rem 2rem;
     background-color: #f2f2f2;
