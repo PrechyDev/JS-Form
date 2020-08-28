@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>JSForm</title>
+</head>
+
+<body>
+	<form name="JSForm" onsubmit="return validate()" method="post" autocomplete="on">
+		<h2>Register With Us Today</h2>
+		<hr>
+
+		<label for="fName">First Name</label>
+		<input id="fName" name="fName" type="text" placeholder="Your first name...">
+
+
+		<label for="lName">Last Name</label>
+		<input id="lName" name="lName" type="text" placeholder="Your last name...">
+
+		<label for="contact">Phone Number</label>
+		<input id="contact" type="tel" name="contact" placeholder="555-6656-6765">
+
+
+		<label for="email">Email</label>
+		<input id="email" type="email" name="email" placeholder="example@gmail.com">
+
+		<label for="dob">Date of Birth</label>
+		<input type="date" name="dob" id="dob" placeholder="dd/mm/yyyy">
+
+		<label for="country">Country</label>
+		<select id="country" name="country">
+			<option value="">select</option>
+			<option value="CAN">Canada</option>
+			<option value="NGN">Nigeria</option>
+			<option value="UK">United Kingdom</option>
+			<option value="US">United States</option>
+			<option value="SA">South Aftrica</option>
+		</select>
+
+		<label for="state">State of Origin</label>
+		<select id="state" name="state">
+			<option value="">select</option>
+			<option value="Abia">Abia</option>
+			<option value="Adamawa">Adamawa</option>
+			<option value="Akwa Ibom">Akwa Ibom</option>
+			<option value="Anambra">Anambra</option>
+			<option value="Bauchi">Bauchi</option>
+			<option value="Bayelsa">Bayelsa</option>
+			<option value="Benue">Benue</option>
+			<option value="Borno">Borno</option>
+			<option value="Cross River">Cross River</option>
+			<option value="Delta">Delta</option>
+			<option value="Ebonyi">Ebonyi</option>
+			<option value="Edo">Edo</option>
+			<option value="Ekiti">Ekiti</option>
+			<option value="Enugu">Enugu</option>
+			<option value="Gombe">Gombe</option>
+			<option value="Imo">Imo</option>
+			<option value="Jigawa">Jigawa</option>
+			<option value="Kaduna">Kaduna</option>
+			<option value="Kano">Kano</option>
+			<option value="Kastina">Kastina</option>
+			<option value="Kebbi">Kebbi</option>
+			<option value="Kogi">Kogi</option>
+			<option value="Kwara">Kwara</option>
+			<option value="Lagos">Lagos</option>
+			<option value="Nasarawa">Nasarawa</option>
+			<option value="Niger">Niger</option>
+			<option value="Ogun">Ogun</option>
+			<option value="Ondo">Ondo</option>
+			<option value="Osun">Osun</option>
+			<option value="Oyo">Oyo</option>
+			<option value="Plateau">Plateau</option>
+			<option value="Rivers">Rivers</option>
+			<option value="Sokoto">Sokoto</option>
+			<option value="Taraba">Taraba</option>
+			<option value="Yobe">Yobe</option>
+			<option value="Zamfara">Zamfara</option>
+			<option value="FCT">FCT</option>
+		</select>
+
+		<button type="submit">Register</button>
+	</form>
+
+	<script src="validate.js"></script>
+</body>
+
+</html>
