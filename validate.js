@@ -11,7 +11,7 @@ function validate() {
   //Define variables for date conditions
   let currentDate = new Date();
   let start = new Date(2020, 7, 29, 00, 00);
-  let end = new Date(2020, 7, 31, 11, 59, 59);
+  let end = new Date(2020, 7, 31, 23, 59, 59);
 
   //Define conditions for any empty field
   if (fName == "" && lName == "" && contact == "" && email == "" && dob == "" && state == "" && country == "") {
